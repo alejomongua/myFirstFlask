@@ -1,0 +1,31 @@
+{
+  "name": "flask1",
+  "version": "1.0.0",
+  "description": "My first flask app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --mode production",
+    "dev-build": "./node_modules/.bin/webpack --progress -d --config webpack.config.js",
+    "watch": "./node_modules/.bin/webpack --progress -d --config webpack.config.js --watch"
+  },
+  "author": "LAML",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "fibers": "^5.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.0",
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "skeleton-sass-official": "^4.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

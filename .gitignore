@@ -1,0 +1,6 @@
+!**.keep
+*.pyc
+static/node_modules/
+public/dist/*
+static/dist/*
+app/templates/base.html

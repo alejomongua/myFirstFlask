@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        {% block navbar %}
+        {% endblock %}
+      </header>
+      <main>
+        {% block body %}
+        {% endblock %}
+      </main>
+      <footer class="footer">
+        {% block footer %}
+        {% endblock %}
+      </footer>
+    </div> <!-- /container -->
+  <script src="/dist/bundle-legacy.js" nomodule></script>
+  <script src="/dist/bundle.js" type="module"></script>
+  </body>
+</html>
